@@ -1,0 +1,435 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2430pt" height="749pt" viewBox="0.00 0.00 2429.80 749.20">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 745.2)">
+<title>blockchain_block_advanced</title>
+<g id="clust2" class="cluster">
+<title>cluster_merkle_tree</title>
+<path fill="#1a3c5e" stroke="#1a3c5e" stroke-width="1.5" d="M44.8,-323.6C44.8,-323.6 2401.8,-323.6 2401.8,-323.6 2407.8,-323.6 2413.8,-329.6 2413.8,-335.6 2413.8,-335.6 2413.8,-721.2 2413.8,-721.2 2413.8,-727.2 2407.8,-733.2 2401.8,-733.2 2401.8,-733.2 44.8,-733.2 44.8,-733.2 38.8,-733.2 32.8,-727.2 32.8,-721.2 32.8,-721.2 32.8,-335.6 32.8,-335.6 32.8,-329.6 38.8,-323.6 44.8,-323.6"/>
+<text text-anchor="middle" x="1223.3" y="-331.8" font-family="Times,serif" font-size="14.00">Merkle Tree (8 Tx, Balanced)</text>
+</g>
+<!-- block -->
+<g id="node1" class="node">
+<title>block</title>
+<defs>
+<linearGradient id="node1_l_0" gradientUnits="userSpaceOnUse" x1="629.8" y1="-4" x2="629.8" y2="-90.4">
+<stop offset="0" style="stop-color:#a3d8f4;stop-opacity:1.;"/>
+<stop offset="1" style="stop-color:#4a90e2;stop-opacity:1.;"/>
+</linearGradient>
+</defs>
+<polygon fill="url(#node1_l_0)" stroke="#1a3c5e" stroke-width="1.5" points="755.8,-90.4 507.8,-90.4 503.8,-86.4 503.8,-4 751.8,-4 755.8,-8 755.8,-90.4"/>
+<polyline fill="none" stroke="#1a3c5e" stroke-width="1.5" points="751.8,-86.4 503.8,-86.4"/>
+<polyline fill="none" stroke="#1a3c5e" stroke-width="1.5" points="751.8,-86.4 751.8,-4"/>
+<polyline fill="none" stroke="#1a3c5e" stroke-width="1.5" points="751.8,-86.4 755.8,-90.4"/>
+<polygon fill="none" stroke="#1a3c5e" stroke-width="1.5" points="759.8,-94.4 503.8,-94.4 499.8,-90.4 499.8,0 755.8,0 759.8,-4 759.8,-94.4"/>
+<polyline fill="none" stroke="#1a3c5e" stroke-width="1.5" points="755.8,-90.4 499.8,-90.4"/>
+<polyline fill="none" stroke="#1a3c5e" stroke-width="1.5" points="755.8,-90.4 755.8,0"/>
+<polyline fill="none" stroke="#1a3c5e" stroke-width="1.5" points="755.8,-90.4 759.8,-94.4"/>
+<text text-anchor="middle" x="629.8" y="-50.8" font-family="Helvetica,sans-Serif" font-size="12.00">Block #N</text>
+<text text-anchor="middle" x="629.8" y="-36.4" font-family="Helvetica,sans-Serif" font-size="12.00">(Height: 10234)</text>
+</g>
+<!-- data -->
+<g id="node2" class="node">
+<title>data</title>
+<defs>
+<linearGradient id="node2_l_1" gradientUnits="userSpaceOnUse" x1="100.8" y1="-181.6" x2="100.8" y2="-246.4">
+<stop offset="0" style="stop-color:#fff3b3;stop-opacity:1.;"/>
+<stop offset="1" style="stop-color:#ffd700;stop-opacity:1.;"/>
+</linearGradient>
+</defs>
+<path fill="url(#node2_l_1)" stroke="#1a3c5e" stroke-width="1.5" d="M189.6,-246.4C189.6,-246.4 12,-246.4 12,-246.4 6,-246.4 0,-240.4 0,-234.4 0,-234.4 0,-193.6 0,-193.6 0,-187.6 6,-181.6 12,-181.6 12,-181.6 189.6,-181.6 189.6,-181.6 195.6,-181.6 201.6,-187.6 201.6,-193.6 201.6,-193.6 201.6,-234.4 201.6,-234.4 201.6,-240.4 195.6,-246.4 189.6,-246.4"/>
+<text text-anchor="middle" x="100.8" y="-224.8" font-family="Helvetica,sans-Serif" font-size="12.00">Data</text>
+<text text-anchor="middle" x="100.8" y="-210.4" font-family="Helvetica,sans-Serif" font-size="12.00">(Tx Count: 128)</text>
+<text text-anchor="middle" x="100.8" y="-196" font-family="Helvetica,sans-Serif" font-size="12.00">[Signed Tx Records]</text>
+</g>
+<!-- block&#45;&gt;data -->
+<g id="edge4" class="edge">
+<title>block-&gt;data</title>
+<path fill="none" stroke="#d3d3d3" stroke-width="2" stroke-dasharray="5,2" d="M499.38,-88.83C411.27,-116.28 296.18,-152.13 212.33,-178.25"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" stroke-width="2" points="211.7,-175.52 204.9,-180.57 213.37,-180.86 211.7,-175.52"/>
+<text text-anchor="middle" x="401.22" y="-134.7" font-family="Times,serif" font-size="11.00" fill="#1a3c5e">Stores Tx Payload</text>
+</g>
+<!-- prev_hash -->
+<g id="node3" class="node">
+<title>prev_hash</title>
+<defs>
+<linearGradient id="node3_l_2" gradientUnits="userSpaceOnUse" x1="320.8" y1="-181.6" x2="320.8" y2="-246.4">
+<stop offset="0" style="stop-color:#ffccd5;stop-opacity:1.;"/>
+<stop offset="1" style="stop-color:#ff6b81;stop-opacity:1.;"/>
+</linearGradient>
+</defs>
+<path fill="url(#node3_l_2)" stroke="#1a3c5e" stroke-width="1.5" d="M409.6,-246.4C409.6,-246.4 232,-246.4 232,-246.4 226,-246.4 220,-240.4 220,-234.4 220,-234.4 220,-193.6 220,-193.6 220,-187.6 226,-181.6 232,-181.6 232,-181.6 409.6,-181.6 409.6,-181.6 415.6,-181.6 421.6,-187.6 421.6,-193.6 421.6,-193.6 421.6,-234.4 421.6,-234.4 421.6,-240.4 415.6,-246.4 409.6,-246.4"/>
+<text text-anchor="middle" x="320.8" y="-224.8" font-family="Helvetica,sans-Serif" font-size="12.00">Previous Hash</text>
+<text text-anchor="middle" x="320.8" y="-210.4" font-family="Helvetica,sans-Serif" font-size="12.00">(0xA1B2C3D4E5F6789012...)</text>
+<text text-anchor="middle" x="320.8" y="-196" font-family="Helvetica,sans-Serif" font-size="12.00">[Links to Block #N-1]</text>
+</g>
+<!-- block&#45;&gt;prev_hash -->
+<g id="edge5" class="edge">
+<title>block-&gt;prev_hash</title>
+<path fill="none" stroke="#d3d3d3" stroke-width="2" stroke-dasharray="5,2" d="M542.49,-94.76C494.27,-120.48 435.21,-151.98 390.18,-176"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" stroke-width="2" points="388.91,-173.5 383.17,-179.73 391.55,-178.44 388.91,-173.5"/>
+<text text-anchor="middle" x="509.69" y="-134.7" font-family="Times,serif" font-size="11.00" fill="#1a3c5e">Chains Block ID</text>
+</g>
+<!-- timestamp -->
+<g id="node4" class="node">
+<title>timestamp</title>
+<defs>
+<linearGradient id="node4_l_3" gradientUnits="userSpaceOnUse" x1="629.8" y1="-181.6" x2="629.8" y2="-246.4">
+<stop offset="0" style="stop-color:#d9e8d5;stop-opacity:1.;"/>
+<stop offset="1" style="stop-color:#85c872;stop-opacity:1.;"/>
+</linearGradient>
+</defs>
+<path fill="url(#node4_l_3)" stroke="#1a3c5e" stroke-width="1.5" d="M718.6,-246.4C718.6,-246.4 541,-246.4 541,-246.4 535,-246.4 529,-240.4 529,-234.4 529,-234.4 529,-193.6 529,-193.6 529,-187.6 535,-181.6 541,-181.6 541,-181.6 718.6,-181.6 718.6,-181.6 724.6,-181.6 730.6,-187.6 730.6,-193.6 730.6,-193.6 730.6,-234.4 730.6,-234.4 730.6,-240.4 724.6,-246.4 718.6,-246.4"/>
+<text text-anchor="middle" x="629.8" y="-224.8" font-family="Helvetica,sans-Serif" font-size="12.00">Timestamp</text>
+<text text-anchor="middle" x="629.8" y="-210.4" font-family="Helvetica,sans-Serif" font-size="12.00">(2025-06-07 12:38 PM IST)</text>
+<text text-anchor="middle" x="629.8" y="-196" font-family="Helvetica,sans-Serif" font-size="12.00">[UTC+5:30, Epoch: 1749295080]</text>
+</g>
+<!-- block&#45;&gt;timestamp -->
+<g id="edge6" class="edge">
+<title>block-&gt;timestamp</title>
+<path fill="none" stroke="#d3d3d3" stroke-width="2" stroke-dasharray="5,2" d="M629.8,-94.54C629.8,-118.35 629.8,-147.16 629.8,-170.41"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" stroke-width="2" points="627,-170.3 629.8,-178.3 632.6,-170.3 627,-170.3"/>
+<text text-anchor="middle" x="674.09" y="-134.7" font-family="Times,serif" font-size="11.00" fill="#1a3c5e">Marks Time Record</text>
+</g>
+<!-- nonce -->
+<g id="node5" class="node">
+<title>nonce</title>
+<defs>
+<linearGradient id="node5_l_4" gradientUnits="userSpaceOnUse" x1="938.8" y1="-181.6" x2="938.8" y2="-246.4">
+<stop offset="0" style="stop-color:#e6ccff;stop-opacity:1.;"/>
+<stop offset="1" style="stop-color:#b266ff;stop-opacity:1.;"/>
+</linearGradient>
+</defs>
+<path fill="url(#node5_l_4)" stroke="#1a3c5e" stroke-width="1.5" d="M1027.6,-246.4C1027.6,-246.4 850,-246.4 850,-246.4 844,-246.4 838,-240.4 838,-234.4 838,-234.4 838,-193.6 838,-193.6 838,-187.6 844,-181.6 850,-181.6 850,-181.6 1027.6,-181.6 1027.6,-181.6 1033.6,-181.6 1039.6,-187.6 1039.6,-193.6 1039.6,-193.6 1039.6,-234.4 1039.6,-234.4 1039.6,-240.4 1033.6,-246.4 1027.6,-246.4"/>
+<text text-anchor="middle" x="938.8" y="-224.8" font-family="Helvetica,sans-Serif" font-size="12.00">Nonce</text>
+<text text-anchor="middle" x="938.8" y="-210.4" font-family="Helvetica,sans-Serif" font-size="12.00">(987654321)</text>
+<text text-anchor="middle" x="938.8" y="-196" font-family="Helvetica,sans-Serif" font-size="12.00">[PoW Difficulty: 2^32]</text>
+</g>
+<!-- block&#45;&gt;nonce -->
+<g id="edge7" class="edge">
+<title>block-&gt;nonce</title>
+<path fill="none" stroke="#d3d3d3" stroke-width="2" stroke-dasharray="5,2" d="M717.11,-94.76C765.33,-120.48 824.39,-151.98 869.42,-176"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" stroke-width="2" points="868.05,-178.44 876.43,-179.73 870.69,-173.5 868.05,-178.44"/>
+<text text-anchor="middle" x="851.49" y="-134.7" font-family="Times,serif" font-size="11.00" fill="#1a3c5e">Tunes PoW Target</text>
+</g>
+<!-- merkle_root -->
+<g id="node6" class="node">
+<title>merkle_root</title>
+<defs>
+<linearGradient id="node6_l_5" gradientUnits="userSpaceOnUse" x1="1247.8" y1="-181.6" x2="1247.8" y2="-246.4">
+<stop offset="0" style="stop-color:#ffdab3;stop-opacity:1.;"/>
+<stop offset="1" style="stop-color:#ff8c4b;stop-opacity:1.;"/>
+</linearGradient>
+</defs>
+<path fill="url(#node6_l_5)" stroke="#1a3c5e" stroke-width="1.5" d="M1336.6,-246.4C1336.6,-246.4 1159,-246.4 1159,-246.4 1153,-246.4 1147,-240.4 1147,-234.4 1147,-234.4 1147,-193.6 1147,-193.6 1147,-187.6 1153,-181.6 1159,-181.6 1159,-181.6 1336.6,-181.6 1336.6,-181.6 1342.6,-181.6 1348.6,-187.6 1348.6,-193.6 1348.6,-193.6 1348.6,-234.4 1348.6,-234.4 1348.6,-240.4 1342.6,-246.4 1336.6,-246.4"/>
+<text text-anchor="middle" x="1247.8" y="-224.8" font-family="Helvetica,sans-Serif" font-size="12.00">Merkle Root</text>
+<text text-anchor="middle" x="1247.8" y="-210.4" font-family="Helvetica,sans-Serif" font-size="12.00">(0xD4E5F6A7B8C91234...)</text>
+<text text-anchor="middle" x="1247.8" y="-196" font-family="Helvetica,sans-Serif" font-size="12.00">[SHA-256, Tx Summary]</text>
+</g>
+<!-- block&#45;&gt;merkle_root -->
+<g id="edge8" class="edge">
+<title>block-&gt;merkle_root</title>
+<path fill="none" stroke="#d3d3d3" stroke-width="2" stroke-dasharray="5,2" d="M760.11,-82.95C871.66,-112.7 1030.56,-155.07 1136.31,-183.27"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" stroke-width="2" points="1135.32,-185.9 1143.77,-185.26 1136.76,-180.49 1135.32,-185.9"/>
+<text text-anchor="middle" x="1021.86" y="-134.7" font-family="Times,serif" font-size="11.00" fill="#1a3c5e">Roots Tx Tree</text>
+</g>
+<!-- prev_hash&#45;&gt;timestamp -->
+<!-- timestamp&#45;&gt;nonce -->
+<!-- nonce&#45;&gt;merkle_root -->
+<!-- hash1234 -->
+<g id="node19" class="node">
+<title>hash1234</title>
+<defs>
+<linearGradient id="node19_l_6" gradientUnits="userSpaceOnUse" x1="1068.8" y1="-356.4" x2="1068.8" y2="-421.2">
+<stop offset="0" style="stop-color:#e6ccff;stop-opacity:1.;"/>
+<stop offset="1" style="stop-color:#b266ff;stop-opacity:1.;"/>
+</linearGradient>
+</defs>
+<path fill="url(#node19_l_6)" stroke="#1a3c5e" stroke-width="1.5" d="M1157.6,-421.2C1157.6,-421.2 980,-421.2 980,-421.2 974,-421.2 968,-415.2 968,-409.2 968,-409.2 968,-368.4 968,-368.4 968,-362.4 974,-356.4 980,-356.4 980,-356.4 1157.6,-356.4 1157.6,-356.4 1163.6,-356.4 1169.6,-362.4 1169.6,-368.4 1169.6,-368.4 1169.6,-409.2 1169.6,-409.2 1169.6,-415.2 1163.6,-421.2 1157.6,-421.2"/>
+<text text-anchor="middle" x="1068.8" y="-399.6" font-family="Helvetica,sans-Serif" font-size="12.00">H1234</text>
+<text text-anchor="middle" x="1068.8" y="-385.2" font-family="Helvetica,sans-Serif" font-size="12.00">(0xH1234...)</text>
+<text text-anchor="middle" x="1068.8" y="-370.8" font-family="Helvetica,sans-Serif" font-size="12.00">[SHA-256]</text>
+</g>
+<!-- merkle_root&#45;&gt;hash1234 -->
+<g id="edge9" class="edge">
+<title>merkle_root-&gt;hash1234</title>
+<path fill="none" stroke="#d3d3d3" stroke-width="2" stroke-dasharray="5,2" d="M1214.97,-246.69C1185.29,-275.35 1141.48,-317.64 1109.57,-348.44"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" stroke-width="2" points="1107.71,-346.34 1103.9,-353.91 1111.6,-350.37 1107.71,-346.34"/>
+<text text-anchor="middle" x="1217.15" y="-286.7" font-family="Times,serif" font-size="11.00" fill="#1a3c5e">Combines Level 1</text>
+</g>
+<!-- hash5678 -->
+<g id="node20" class="node">
+<title>hash5678</title>
+<defs>
+<linearGradient id="node20_l_7" gradientUnits="userSpaceOnUse" x1="1377.8" y1="-356.4" x2="1377.8" y2="-421.2">
+<stop offset="0" style="stop-color:#e6ccff;stop-opacity:1.;"/>
+<stop offset="1" style="stop-color:#b266ff;stop-opacity:1.;"/>
+</linearGradient>
+</defs>
+<path fill="url(#node20_l_7)" stroke="#1a3c5e" stroke-width="1.5" d="M1466.6,-421.2C1466.6,-421.2 1289,-421.2 1289,-421.2 1283,-421.2 1277,-415.2 1277,-409.2 1277,-409.2 1277,-368.4 1277,-368.4 1277,-362.4 1283,-356.4 1289,-356.4 1289,-356.4 1466.6,-356.4 1466.6,-356.4 1472.6,-356.4 1478.6,-362.4 1478.6,-368.4 1478.6,-368.4 1478.6,-409.2 1478.6,-409.2 1478.6,-415.2 1472.6,-421.2 1466.6,-421.2"/>
+<text text-anchor="middle" x="1377.8" y="-399.6" font-family="Helvetica,sans-Serif" font-size="12.00">H5678</text>
+<text text-anchor="middle" x="1377.8" y="-385.2" font-family="Helvetica,sans-Serif" font-size="12.00">(0xH5678...)</text>
+<text text-anchor="middle" x="1377.8" y="-370.8" font-family="Helvetica,sans-Serif" font-size="12.00">[SHA-256]</text>
+</g>
+<!-- merkle_root&#45;&gt;hash5678 -->
+<g id="edge10" class="edge">
+<title>merkle_root-&gt;hash5678</title>
+<path fill="none" stroke="#d3d3d3" stroke-width="2" stroke-dasharray="5,2" d="M1271.64,-246.69C1292.93,-274.98 1324.21,-316.56 1347.3,-347.26"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" stroke-width="2" points="1345.02,-348.89 1352.07,-353.6 1349.5,-345.52 1345.02,-348.89"/>
+<text text-anchor="middle" x="1349.34" y="-286.7" font-family="Times,serif" font-size="11.00" fill="#1a3c5e">Combines Level 1</text>
+</g>
+<!-- tx1 -->
+<g id="node7" class="node">
+<title>tx1</title>
+<defs>
+<linearGradient id="node7_l_8" gradientUnits="userSpaceOnUse" x1="141.8" y1="-660.4" x2="141.8" y2="-725.2">
+<stop offset="0" style="stop-color:#fff3b3;stop-opacity:1.;"/>
+<stop offset="1" style="stop-color:#ffd700;stop-opacity:1.;"/>
+</linearGradient>
+</defs>
+<path fill="url(#node7_l_8)" stroke="#1a3c5e" stroke-width="1.5" d="M230.6,-725.2C230.6,-725.2 53,-725.2 53,-725.2 47,-725.2 41,-719.2 41,-713.2 41,-713.2 41,-672.4 41,-672.4 41,-666.4 47,-660.4 53,-660.4 53,-660.4 230.6,-660.4 230.6,-660.4 236.6,-660.4 242.6,-666.4 242.6,-672.4 242.6,-672.4 242.6,-713.2 242.6,-713.2 242.6,-719.2 236.6,-725.2 230.6,-725.2"/>
+<text text-anchor="middle" x="141.8" y="-696.4" font-family="Helvetica,sans-Serif" font-size="12.00">Tx1</text>
+<text text-anchor="middle" x="141.8" y="-682" font-family="Helvetica,sans-Serif" font-size="12.00">(0xT1A2B3...)</text>
+</g>
+<!-- tx2 -->
+<g id="node8" class="node">
+<title>tx2</title>
+<defs>
+<linearGradient id="node8_l_9" gradientUnits="userSpaceOnUse" x1="450.8" y1="-660.4" x2="450.8" y2="-725.2">
+<stop offset="0" style="stop-color:#fff3b3;stop-opacity:1.;"/>
+<stop offset="1" style="stop-color:#ffd700;stop-opacity:1.;"/>
+</linearGradient>
+</defs>
+<path fill="url(#node8_l_9)" stroke="#1a3c5e" stroke-width="1.5" d="M539.6,-725.2C539.6,-725.2 362,-725.2 362,-725.2 356,-725.2 350,-719.2 350,-713.2 350,-713.2 350,-672.4 350,-672.4 350,-666.4 356,-660.4 362,-660.4 362,-660.4 539.6,-660.4 539.6,-660.4 545.6,-660.4 551.6,-666.4 551.6,-672.4 551.6,-672.4 551.6,-713.2 551.6,-713.2 551.6,-719.2 545.6,-725.2 539.6,-725.2"/>
+<text text-anchor="middle" x="450.8" y="-696.4" font-family="Helvetica,sans-Serif" font-size="12.00">Tx2</text>
+<text text-anchor="middle" x="450.8" y="-682" font-family="Helvetica,sans-Serif" font-size="12.00">(0xT2C3D4...)</text>
+</g>
+<!-- tx1&#45;&gt;tx2 -->
+<!-- tx3 -->
+<g id="node9" class="node">
+<title>tx3</title>
+<defs>
+<linearGradient id="node9_l_10" gradientUnits="userSpaceOnUse" x1="759.8" y1="-660.4" x2="759.8" y2="-725.2">
+<stop offset="0" style="stop-color:#fff3b3;stop-opacity:1.;"/>
+<stop offset="1" style="stop-color:#ffd700;stop-opacity:1.;"/>
+</linearGradient>
+</defs>
+<path fill="url(#node9_l_10)" stroke="#1a3c5e" stroke-width="1.5" d="M848.6,-725.2C848.6,-725.2 671,-725.2 671,-725.2 665,-725.2 659,-719.2 659,-713.2 659,-713.2 659,-672.4 659,-672.4 659,-666.4 665,-660.4 671,-660.4 671,-660.4 848.6,-660.4 848.6,-660.4 854.6,-660.4 860.6,-666.4 860.6,-672.4 860.6,-672.4 860.6,-713.2 860.6,-713.2 860.6,-719.2 854.6,-725.2 848.6,-725.2"/>
+<text text-anchor="middle" x="759.8" y="-696.4" font-family="Helvetica,sans-Serif" font-size="12.00">Tx3</text>
+<text text-anchor="middle" x="759.8" y="-682" font-family="Helvetica,sans-Serif" font-size="12.00">(0xT3E4F5...)</text>
+</g>
+<!-- tx2&#45;&gt;tx3 -->
+<!-- tx4 -->
+<g id="node10" class="node">
+<title>tx4</title>
+<defs>
+<linearGradient id="node10_l_11" gradientUnits="userSpaceOnUse" x1="1068.8" y1="-660.4" x2="1068.8" y2="-725.2">
+<stop offset="0" style="stop-color:#fff3b3;stop-opacity:1.;"/>
+<stop offset="1" style="stop-color:#ffd700;stop-opacity:1.;"/>
+</linearGradient>
+</defs>
+<path fill="url(#node10_l_11)" stroke="#1a3c5e" stroke-width="1.5" d="M1157.6,-725.2C1157.6,-725.2 980,-725.2 980,-725.2 974,-725.2 968,-719.2 968,-713.2 968,-713.2 968,-672.4 968,-672.4 968,-666.4 974,-660.4 980,-660.4 980,-660.4 1157.6,-660.4 1157.6,-660.4 1163.6,-660.4 1169.6,-666.4 1169.6,-672.4 1169.6,-672.4 1169.6,-713.2 1169.6,-713.2 1169.6,-719.2 1163.6,-725.2 1157.6,-725.2"/>
+<text text-anchor="middle" x="1068.8" y="-696.4" font-family="Helvetica,sans-Serif" font-size="12.00">Tx4</text>
+<text text-anchor="middle" x="1068.8" y="-682" font-family="Helvetica,sans-Serif" font-size="12.00">(0xT4G5H6...)</text>
+</g>
+<!-- tx3&#45;&gt;tx4 -->
+<!-- tx5 -->
+<g id="node11" class="node">
+<title>tx5</title>
+<defs>
+<linearGradient id="node11_l_12" gradientUnits="userSpaceOnUse" x1="1377.8" y1="-660.4" x2="1377.8" y2="-725.2">
+<stop offset="0" style="stop-color:#fff3b3;stop-opacity:1.;"/>
+<stop offset="1" style="stop-color:#ffd700;stop-opacity:1.;"/>
+</linearGradient>
+</defs>
+<path fill="url(#node11_l_12)" stroke="#1a3c5e" stroke-width="1.5" d="M1466.6,-725.2C1466.6,-725.2 1289,-725.2 1289,-725.2 1283,-725.2 1277,-719.2 1277,-713.2 1277,-713.2 1277,-672.4 1277,-672.4 1277,-666.4 1283,-660.4 1289,-660.4 1289,-660.4 1466.6,-660.4 1466.6,-660.4 1472.6,-660.4 1478.6,-666.4 1478.6,-672.4 1478.6,-672.4 1478.6,-713.2 1478.6,-713.2 1478.6,-719.2 1472.6,-725.2 1466.6,-725.2"/>
+<text text-anchor="middle" x="1377.8" y="-696.4" font-family="Helvetica,sans-Serif" font-size="12.00">Tx5</text>
+<text text-anchor="middle" x="1377.8" y="-682" font-family="Helvetica,sans-Serif" font-size="12.00">(0xT5I6J7...)</text>
+</g>
+<!-- tx4&#45;&gt;tx5 -->
+<!-- tx6 -->
+<g id="node12" class="node">
+<title>tx6</title>
+<defs>
+<linearGradient id="node12_l_13" gradientUnits="userSpaceOnUse" x1="1686.8" y1="-660.4" x2="1686.8" y2="-725.2">
+<stop offset="0" style="stop-color:#fff3b3;stop-opacity:1.;"/>
+<stop offset="1" style="stop-color:#ffd700;stop-opacity:1.;"/>
+</linearGradient>
+</defs>
+<path fill="url(#node12_l_13)" stroke="#1a3c5e" stroke-width="1.5" d="M1775.6,-725.2C1775.6,-725.2 1598,-725.2 1598,-725.2 1592,-725.2 1586,-719.2 1586,-713.2 1586,-713.2 1586,-672.4 1586,-672.4 1586,-666.4 1592,-660.4 1598,-660.4 1598,-660.4 1775.6,-660.4 1775.6,-660.4 1781.6,-660.4 1787.6,-666.4 1787.6,-672.4 1787.6,-672.4 1787.6,-713.2 1787.6,-713.2 1787.6,-719.2 1781.6,-725.2 1775.6,-725.2"/>
+<text text-anchor="middle" x="1686.8" y="-696.4" font-family="Helvetica,sans-Serif" font-size="12.00">Tx6</text>
+<text text-anchor="middle" x="1686.8" y="-682" font-family="Helvetica,sans-Serif" font-size="12.00">(0xT6K7L8...)</text>
+</g>
+<!-- tx5&#45;&gt;tx6 -->
+<!-- tx7 -->
+<g id="node13" class="node">
+<title>tx7</title>
+<defs>
+<linearGradient id="node13_l_14" gradientUnits="userSpaceOnUse" x1="1995.8" y1="-660.4" x2="1995.8" y2="-725.2">
+<stop offset="0" style="stop-color:#fff3b3;stop-opacity:1.;"/>
+<stop offset="1" style="stop-color:#ffd700;stop-opacity:1.;"/>
+</linearGradient>
+</defs>
+<path fill="url(#node13_l_14)" stroke="#1a3c5e" stroke-width="1.5" d="M2084.6,-725.2C2084.6,-725.2 1907,-725.2 1907,-725.2 1901,-725.2 1895,-719.2 1895,-713.2 1895,-713.2 1895,-672.4 1895,-672.4 1895,-666.4 1901,-660.4 1907,-660.4 1907,-660.4 2084.6,-660.4 2084.6,-660.4 2090.6,-660.4 2096.6,-666.4 2096.6,-672.4 2096.6,-672.4 2096.6,-713.2 2096.6,-713.2 2096.6,-719.2 2090.6,-725.2 2084.6,-725.2"/>
+<text text-anchor="middle" x="1995.8" y="-696.4" font-family="Helvetica,sans-Serif" font-size="12.00">Tx7</text>
+<text text-anchor="middle" x="1995.8" y="-682" font-family="Helvetica,sans-Serif" font-size="12.00">(0xT7M8N9...)</text>
+</g>
+<!-- tx6&#45;&gt;tx7 -->
+<!-- tx8 -->
+<g id="node14" class="node">
+<title>tx8</title>
+<defs>
+<linearGradient id="node14_l_15" gradientUnits="userSpaceOnUse" x1="2304.8" y1="-660.4" x2="2304.8" y2="-725.2">
+<stop offset="0" style="stop-color:#fff3b3;stop-opacity:1.;"/>
+<stop offset="1" style="stop-color:#ffd700;stop-opacity:1.;"/>
+</linearGradient>
+</defs>
+<path fill="url(#node14_l_15)" stroke="#1a3c5e" stroke-width="1.5" d="M2393.6,-725.2C2393.6,-725.2 2216,-725.2 2216,-725.2 2210,-725.2 2204,-719.2 2204,-713.2 2204,-713.2 2204,-672.4 2204,-672.4 2204,-666.4 2210,-660.4 2216,-660.4 2216,-660.4 2393.6,-660.4 2393.6,-660.4 2399.6,-660.4 2405.6,-666.4 2405.6,-672.4 2405.6,-672.4 2405.6,-713.2 2405.6,-713.2 2405.6,-719.2 2399.6,-725.2 2393.6,-725.2"/>
+<text text-anchor="middle" x="2304.8" y="-696.4" font-family="Helvetica,sans-Serif" font-size="12.00">Tx8</text>
+<text text-anchor="middle" x="2304.8" y="-682" font-family="Helvetica,sans-Serif" font-size="12.00">(0xT8O9P0...)</text>
+</g>
+<!-- tx7&#45;&gt;tx8 -->
+<!-- hash12 -->
+<g id="node15" class="node">
+<title>hash12</title>
+<defs>
+<linearGradient id="node15_l_16" gradientUnits="userSpaceOnUse" x1="605.8" y1="-508.4" x2="605.8" y2="-573.2">
+<stop offset="0" style="stop-color:#d9e8d5;stop-opacity:1.;"/>
+<stop offset="1" style="stop-color:#85c872;stop-opacity:1.;"/>
+</linearGradient>
+</defs>
+<path fill="url(#node15_l_16)" stroke="#1a3c5e" stroke-width="1.5" d="M694.6,-573.2C694.6,-573.2 517,-573.2 517,-573.2 511,-573.2 505,-567.2 505,-561.2 505,-561.2 505,-520.4 505,-520.4 505,-514.4 511,-508.4 517,-508.4 517,-508.4 694.6,-508.4 694.6,-508.4 700.6,-508.4 706.6,-514.4 706.6,-520.4 706.6,-520.4 706.6,-561.2 706.6,-561.2 706.6,-567.2 700.6,-573.2 694.6,-573.2"/>
+<text text-anchor="middle" x="605.8" y="-551.6" font-family="Helvetica,sans-Serif" font-size="12.00">H12</text>
+<text text-anchor="middle" x="605.8" y="-537.2" font-family="Helvetica,sans-Serif" font-size="12.00">(0xH12AB...)</text>
+<text text-anchor="middle" x="605.8" y="-522.8" font-family="Helvetica,sans-Serif" font-size="12.00">[SHA-256]</text>
+</g>
+<!-- hash12&#45;&gt;tx1 -->
+<g id="edge15" class="edge">
+<title>hash12-&gt;tx1</title>
+<path fill="none" stroke="#d3d3d3" stroke-width="2" stroke-dasharray="5,2" d="M507.4,-573.61C432.17,-597.93 328.5,-631.44 250.77,-656.57"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" stroke-width="2" points="250.09,-653.85 243.34,-658.97 251.81,-659.18 250.09,-653.85"/>
+<text text-anchor="middle" x="420.45" y="-613.5" font-family="Times,serif" font-size="11.00" fill="#1a3c5e">Hashes Leaf</text>
+</g>
+<!-- hash12&#45;&gt;tx2 -->
+<g id="edge16" class="edge">
+<title>hash12-&gt;tx2</title>
+<path fill="none" stroke="#d3d3d3" stroke-width="2" stroke-dasharray="5,2" d="M572.93,-573.61C549.09,-596.68 516.71,-628.02 491.28,-652.63"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" stroke-width="2" points="489.6,-650.35 485.8,-657.93 493.5,-654.38 489.6,-650.35"/>
+<text text-anchor="middle" x="562.09" y="-613.5" font-family="Times,serif" font-size="11.00" fill="#1a3c5e">Hashes Leaf</text>
+</g>
+<!-- hash34 -->
+<g id="node16" class="node">
+<title>hash34</title>
+<defs>
+<linearGradient id="node16_l_17" gradientUnits="userSpaceOnUse" x1="1068.8" y1="-508.4" x2="1068.8" y2="-573.2">
+<stop offset="0" style="stop-color:#d9e8d5;stop-opacity:1.;"/>
+<stop offset="1" style="stop-color:#85c872;stop-opacity:1.;"/>
+</linearGradient>
+</defs>
+<path fill="url(#node16_l_17)" stroke="#1a3c5e" stroke-width="1.5" d="M1157.6,-573.2C1157.6,-573.2 980,-573.2 980,-573.2 974,-573.2 968,-567.2 968,-561.2 968,-561.2 968,-520.4 968,-520.4 968,-514.4 974,-508.4 980,-508.4 980,-508.4 1157.6,-508.4 1157.6,-508.4 1163.6,-508.4 1169.6,-514.4 1169.6,-520.4 1169.6,-520.4 1169.6,-561.2 1169.6,-561.2 1169.6,-567.2 1163.6,-573.2 1157.6,-573.2"/>
+<text text-anchor="middle" x="1068.8" y="-551.6" font-family="Helvetica,sans-Serif" font-size="12.00">H34</text>
+<text text-anchor="middle" x="1068.8" y="-537.2" font-family="Helvetica,sans-Serif" font-size="12.00">(0xH34CD...)</text>
+<text text-anchor="middle" x="1068.8" y="-522.8" font-family="Helvetica,sans-Serif" font-size="12.00">[SHA-256]</text>
+</g>
+<!-- hash12&#45;&gt;hash34 -->
+<!-- hash34&#45;&gt;tx3 -->
+<g id="edge17" class="edge">
+<title>hash34-&gt;tx3</title>
+<path fill="none" stroke="#d3d3d3" stroke-width="2" stroke-dasharray="5,2" d="M1003.27,-573.61C954.09,-597.48 886.66,-630.22 835.24,-655.18"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" stroke-width="2" points="834.2,-652.57 828.23,-658.58 836.65,-657.61 834.2,-652.57"/>
+<text text-anchor="middle" x="954.5" y="-613.5" font-family="Times,serif" font-size="11.00" fill="#1a3c5e">Hashes Leaf</text>
+</g>
+<!-- hash34&#45;&gt;tx4 -->
+<g id="edge18" class="edge">
+<title>hash34-&gt;tx4</title>
+<path fill="none" stroke="#d3d3d3" stroke-width="2" stroke-dasharray="5,2" d="M1068.8,-573.61C1068.8,-595.59 1068.8,-625.07 1068.8,-649.09"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" stroke-width="2" points="1066,-649.01 1068.8,-657.01 1071.6,-649.01 1066,-649.01"/>
+<text text-anchor="middle" x="1096.13" y="-613.5" font-family="Times,serif" font-size="11.00" fill="#1a3c5e">Hashes Leaf</text>
+</g>
+<!-- hash56 -->
+<g id="node17" class="node">
+<title>hash56</title>
+<defs>
+<linearGradient id="node17_l_18" gradientUnits="userSpaceOnUse" x1="1377.8" y1="-508.4" x2="1377.8" y2="-573.2">
+<stop offset="0" style="stop-color:#d9e8d5;stop-opacity:1.;"/>
+<stop offset="1" style="stop-color:#85c872;stop-opacity:1.;"/>
+</linearGradient>
+</defs>
+<path fill="url(#node17_l_18)" stroke="#1a3c5e" stroke-width="1.5" d="M1466.6,-573.2C1466.6,-573.2 1289,-573.2 1289,-573.2 1283,-573.2 1277,-567.2 1277,-561.2 1277,-561.2 1277,-520.4 1277,-520.4 1277,-514.4 1283,-508.4 1289,-508.4 1289,-508.4 1466.6,-508.4 1466.6,-508.4 1472.6,-508.4 1478.6,-514.4 1478.6,-520.4 1478.6,-520.4 1478.6,-561.2 1478.6,-561.2 1478.6,-567.2 1472.6,-573.2 1466.6,-573.2"/>
+<text text-anchor="middle" x="1377.8" y="-551.6" font-family="Helvetica,sans-Serif" font-size="12.00">H56</text>
+<text text-anchor="middle" x="1377.8" y="-537.2" font-family="Helvetica,sans-Serif" font-size="12.00">(0xH56EF...)</text>
+<text text-anchor="middle" x="1377.8" y="-522.8" font-family="Helvetica,sans-Serif" font-size="12.00">[SHA-256]</text>
+</g>
+<!-- hash34&#45;&gt;hash56 -->
+<!-- hash56&#45;&gt;tx5 -->
+<g id="edge19" class="edge">
+<title>hash56-&gt;tx5</title>
+<path fill="none" stroke="#d3d3d3" stroke-width="2" stroke-dasharray="5,2" d="M1377.8,-573.61C1377.8,-595.59 1377.8,-625.07 1377.8,-649.09"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" stroke-width="2" points="1375,-649.01 1377.8,-657.01 1380.6,-649.01 1375,-649.01"/>
+<text text-anchor="middle" x="1405.13" y="-613.5" font-family="Times,serif" font-size="11.00" fill="#1a3c5e">Hashes Leaf</text>
+</g>
+<!-- hash56&#45;&gt;tx6 -->
+<g id="edge20" class="edge">
+<title>hash56-&gt;tx6</title>
+<path fill="none" stroke="#d3d3d3" stroke-width="2" stroke-dasharray="5,2" d="M1443.33,-573.61C1492.51,-597.48 1559.94,-630.22 1611.36,-655.18"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" stroke-width="2" points="1609.95,-657.61 1618.37,-658.58 1612.4,-652.57 1609.95,-657.61"/>
+<text text-anchor="middle" x="1572.5" y="-613.5" font-family="Times,serif" font-size="11.00" fill="#1a3c5e">Hashes Leaf</text>
+</g>
+<!-- hash78 -->
+<g id="node18" class="node">
+<title>hash78</title>
+<defs>
+<linearGradient id="node18_l_19" gradientUnits="userSpaceOnUse" x1="1731.8" y1="-508.4" x2="1731.8" y2="-573.2">
+<stop offset="0" style="stop-color:#d9e8d5;stop-opacity:1.;"/>
+<stop offset="1" style="stop-color:#85c872;stop-opacity:1.;"/>
+</linearGradient>
+</defs>
+<path fill="url(#node18_l_19)" stroke="#1a3c5e" stroke-width="1.5" d="M1820.6,-573.2C1820.6,-573.2 1643,-573.2 1643,-573.2 1637,-573.2 1631,-567.2 1631,-561.2 1631,-561.2 1631,-520.4 1631,-520.4 1631,-514.4 1637,-508.4 1643,-508.4 1643,-508.4 1820.6,-508.4 1820.6,-508.4 1826.6,-508.4 1832.6,-514.4 1832.6,-520.4 1832.6,-520.4 1832.6,-561.2 1832.6,-561.2 1832.6,-567.2 1826.6,-573.2 1820.6,-573.2"/>
+<text text-anchor="middle" x="1731.8" y="-551.6" font-family="Helvetica,sans-Serif" font-size="12.00">H78</text>
+<text text-anchor="middle" x="1731.8" y="-537.2" font-family="Helvetica,sans-Serif" font-size="12.00">(0xH78GH...)</text>
+<text text-anchor="middle" x="1731.8" y="-522.8" font-family="Helvetica,sans-Serif" font-size="12.00">[SHA-256]</text>
+</g>
+<!-- hash56&#45;&gt;hash78 -->
+<!-- hash78&#45;&gt;tx7 -->
+<g id="edge21" class="edge">
+<title>hash78-&gt;tx7</title>
+<path fill="none" stroke="#d3d3d3" stroke-width="2" stroke-dasharray="5,2" d="M1787.79,-573.61C1829.53,-597.33 1886.65,-629.78 1930.47,-654.68"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" stroke-width="2" points="1928.92,-657.02 1937.26,-658.54 1931.69,-652.15 1928.92,-657.02"/>
+<text text-anchor="middle" x="1902.12" y="-613.5" font-family="Times,serif" font-size="11.00" fill="#1a3c5e">Hashes Leaf</text>
+</g>
+<!-- hash78&#45;&gt;tx8 -->
+<g id="edge22" class="edge">
+<title>hash78-&gt;tx8</title>
+<path fill="none" stroke="#d3d3d3" stroke-width="2" stroke-dasharray="5,2" d="M1832.92,-568.27C1933.87,-594.7 2088.63,-635.21 2193.14,-662.57"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" stroke-width="2" points="2192.35,-665.26 2200.8,-664.57 2193.77,-659.84 2192.35,-665.26"/>
+<text text-anchor="middle" x="2069.48" y="-613.5" font-family="Times,serif" font-size="11.00" fill="#1a3c5e">Hashes Leaf</text>
+</g>
+<!-- hash1234&#45;&gt;hash12 -->
+<g id="edge11" class="edge">
+<title>hash1234-&gt;hash12</title>
+<path fill="none" stroke="#d3d3d3" stroke-width="2" stroke-dasharray="5,2" d="M970.61,-421.61C895.54,-445.93 792.1,-479.44 714.53,-504.57"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" stroke-width="2" points="713.87,-501.84 707.13,-506.97 715.6,-507.17 713.87,-501.84"/>
+<text text-anchor="middle" x="890.48" y="-461.5" font-family="Times,serif" font-size="11.00" fill="#1a3c5e">Hashes Level 2</text>
+</g>
+<!-- hash1234&#45;&gt;hash34 -->
+<g id="edge12" class="edge">
+<title>hash1234-&gt;hash34</title>
+<path fill="none" stroke="#d3d3d3" stroke-width="2" stroke-dasharray="5,2" d="M1068.8,-421.61C1068.8,-443.59 1068.8,-473.07 1068.8,-497.09"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" stroke-width="2" points="1066,-497.01 1068.8,-505.01 1071.6,-497.01 1066,-497.01"/>
+<text text-anchor="middle" x="1102.71" y="-461.5" font-family="Times,serif" font-size="11.00" fill="#1a3c5e">Hashes Level 2</text>
+</g>
+<!-- hash1234&#45;&gt;hash5678 -->
+<!-- hash5678&#45;&gt;hash56 -->
+<g id="edge13" class="edge">
+<title>hash5678-&gt;hash56</title>
+<path fill="none" stroke="#d3d3d3" stroke-width="2" stroke-dasharray="5,2" d="M1377.8,-421.61C1377.8,-443.59 1377.8,-473.07 1377.8,-497.09"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" stroke-width="2" points="1375,-497.01 1377.8,-505.01 1380.6,-497.01 1375,-497.01"/>
+<text text-anchor="middle" x="1411.71" y="-461.5" font-family="Times,serif" font-size="11.00" fill="#1a3c5e">Hashes Level 2</text>
+</g>
+<!-- hash5678&#45;&gt;hash78 -->
+<g id="edge14" class="edge">
+<title>hash5678-&gt;hash78</title>
+<path fill="none" stroke="#d3d3d3" stroke-width="2" stroke-dasharray="5,2" d="M1452.87,-421.61C1509.57,-445.63 1587.43,-478.62 1646.48,-503.65"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" stroke-width="2" points="1645.28,-506.18 1653.74,-506.72 1647.47,-501.03 1645.28,-506.18"/>
+<text text-anchor="middle" x="1603.44" y="-461.5" font-family="Times,serif" font-size="11.00" fill="#1a3c5e">Hashes Level 2</text>
+</g>
+</g>
+</svg>
