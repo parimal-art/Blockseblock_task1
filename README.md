@@ -12,7 +12,7 @@ A blockchain is a decentralized and distributed digital ledger that securely rec
 
 ## Block Anatomy
 
-![Block Structure](images/block.png)
+![Block Structure](Block_Anatomy.svg)
 
 **Merkle Root and Data Integrity:**
 The Merkle root is a single hash that represents all transactions inside a block. It is created by repeatedly hashing pairs of transactions until only one hash remains. This structure allows efficient and secure verification of any individual transaction without revealing the entire data set. For example, if someone tries to tamper with one transaction, its hash changes, which alters the Merkle root and signals data corruption, enabling quick integrity checks.
@@ -28,6 +28,4 @@ PoS selects validators to create new blocks based on the amount of cryptocurrenc
 **Delegated Proof of Stake (DPoS):**
 DPoS is a variation where coin holders vote to elect a small group of trusted validators (delegates) who are responsible for producing blocks. Validators are chosen based on votes weighted by stakeholders’ holdings. This system aims to improve scalability and efficiency while maintaining decentralization through democratic selection.
 
----
 
-If you want, I can help format this in Markdown with better styling or add diagrams for the block structure! Would you like that?
