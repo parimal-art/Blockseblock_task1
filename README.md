@@ -1,4 +1,4 @@
-# Mini Blockchain Simulation: Understanding Fundamentals and Consensus Mechanisms
+# Mini Blockchain Simulation: Understanding Fundamentals and Consensus Mechanisms(Task-01)
 
 ## Blockchain Basics
 
@@ -28,7 +28,7 @@ PoS selects validators to create new blocks based on the amount of cryptocurrenc
 **Delegated Proof of Stake (DPoS):**
 DPoS is a variation where coin holders vote to elect a small group of trusted validators (delegates) who are responsible for producing blocks. Validators are chosen based on votes weighted by stakeholders’ holdings. This system aims to improve scalability and efficiency while maintaining decentralization through democratic selection.
 
-#  Blockchain Platform Comparison & Analysis (Task-2)
+#  Blockchain Platform Comparison & Analysis (Task-02)
 
 ##  Blockchain Platform Comparison Table
 
